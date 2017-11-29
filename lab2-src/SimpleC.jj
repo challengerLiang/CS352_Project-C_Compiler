@@ -1,0 +1,492 @@
+
+PARSER_BEGIN(SimpleC)
+
+/** Simple brace matcher.*/
+public class SimpleC {
+
+  /** Main entry point. */
+  public static void main(String args[]) throws ParseException {
+    SimpleC parser = new SimpleC(System.in);
+    /*parser.Input();**/
+    try 
+    {
+    parser.goal();
+    System.out.println("Program compiled Successfully!");
+    }
+    catch (ParseException e)
+    {
+        System.out.println(e.currentToken.beginLine +": Syntax Error");
+    }
+  }
+
+}
+
+PARSER_END(SimpleC)
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+}
+
+TOKEN :
+{
+  /** KEY_WORD */
+  <CHARSTAR: "char*"> 
+| <CHARSTARSTAR: "char**">
+| <LONGSTAR: "long*">
+| <LONG: "long">
+| <VOID: "void">
+| <IF: "if">
+| <ELSE: "else">
+| <WHILE: "while">
+| <DO: "do">
+| <FOR: "for">
+| <CONTINUE: "continue">
+| <BREAK: "break">
+| <RETURN : "return">
+| <DOUBLESTAR: "double*">
+| <DOUBLE: "double">
+
+/** Comments */
+| <DEVIDESTAR:"/*">
+| <STARDEVIDE:"*/">
+| <DEVIDEDEVIDE:"//">
+
+  /** OPERATORS */
+| <LPARENT: "(">
+| <RPARENT: ")">
+| <LBRACE: "[">
+| <RBRACE: "]">
+| <LCURLY: "{">
+| <RCURLY: "}">
+| <COMMA: ",">
+| <SEMICOLON:";">
+| <OROR:"||">
+| <ANDAND:"&&">
+| <EQUALEQUAL:"==">
+| <NOTEQUAL:"!=">
+| <LESSEQUAL:"<=">
+| <GREATEQUAL:">=">
+
+| <EQUAL:"=">
+| <AMPERSAND:"&">
+| <LESS:"<">
+| <GREAT:">">
+| <PLUS:"+">
+| <MINUS:"-">
+| <TIMES:"*">
+| <DIVIDE:"/">
+| <PERCENT:"%">
+
+/**TOKEN PRODUCTION*/
+| <ID:<LETTER> (<LETTER> | <DIGIT> | "_")*>
+| <CHAR_CONST:"'" (<PRINTING_CHAR> | "\0" | "\n" | "\r" | "\0" <OCTAL> <OCTAL> )"'">
+| <STRING_CONST:"\"" (
+                <PRINTING_CHAR>
+                | "\0" <OCTAL> <OCTAL>
+                | "\\" | ("0") <OCTAL> <OCTAL>
+                | "\\" "x" <HEX_DIGIT> <HEX_DIGIT>
+                | "\\" ("n"|"t"|"r"|"0")
+                )* "\"">
+
+| <INTEGER_CONST:<DIGIT> (<DIGIT>)* | <DIGIT> (<DIGIT>)* "_" <HEX_DIGIT> (<HEX_DIGIT>)*>
+| <DOUBLE_CONST:(<DIGIT>)* (".")? <DIGIT> (<DIGIT>)*(("e" | "E") <DIGIT> (<DIGIT>)*)?>
+| <PRINTING_CHAR:<LETTER> | <DIGIT> | <OTHER_CHAR> > 
+| <DIGIT:"0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9">
+| <OCTAL:"0" | "1" | "2" | "3" | "4" | "5" | "6" | "7">
+| <HEX_DIGIT:<DIGIT>
+            |"A" | "B" | "C" | "D" | "E" | "F"
+            |"a" | "b" | "c" | "d" | "e" | "f">
+| <LETTER:"A" | "B" | "C" | "D" | "E" | "F" | "G" | "H"| "I" | "J" | "K" | "L" | "M" | "N" | 
+          "O" | "P" | "Q" | "R" | "S" | "T" | "U" | "V" | "W" | "X"| "Y" | "Z" | 
+          "a" | "b" | "c" | "d" | "e" | "f" | "g" |"h" | "i" | "j" | "k" | "l" | "m" | "n" |
+          "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x"| "y" | "z">
+| <OTHER_CHAR:" " | "!" | "#" | "$" | "%" | "&" | "(" | ")"
+              | "*" | "+" | "," | "-" | "." | "/" | ":" | ";"
+              | "<" | "=" | ">" | "?" | "@" | "[" | "]" | "^"
+              | "_" | "`" | "{" | "|" | "}" | "~"> 
+
+}
+
+/**Root production. */
+void Input() :
+{ int count; }
+{
+  count=anytoken() <EOF>
+  { System.out.println("The number of tokens is " + count); }
+}
+
+int anytoken():
+{
+  Token t;
+  int count=0;
+}
+{
+  (
+   /** KEY_WORD */
+   t = <CHARSTAR> { System.out.println("CHARSTAR, \""+t.image+"\"" ); count++; } |
+   t = <CHARSTARSTAR> { System.out.println("CHARSTARSTAR, \""+t.image+"\"" ); count++; } |
+   t = <LONGSTAR> { System.out.println("LONGSTAR, \""+t.image+"\"" ); count++; } |
+   t = <LONG> { System.out.println("LONG, \""+t.image+"\"" ); count++; } |
+   t = <VOID> { System.out.println("VOID, \""+t.image+"\"" ); count++; } |
+   t = <IF> { System.out.println("IF, \""+t.image+"\"" ); count++; } |
+   t = <ELSE> { System.out.println("ELSE, \""+t.image+"\"" ); count++; } |
+   t = <WHILE> { System.out.println("WHILE, \""+t.image+"\"" ); count++; } |
+   t = <DO> { System.out.println("DO, \""+t.image+"\"" ); count++; } |
+   t = <FOR> { System.out.println("FOR, \""+t.image+"\"" ); count++; } |
+   t = <CONTINUE> { System.out.println("CONTINUE, \""+t.image+"\"" ); count++; } |
+   t = <BREAK> { System.out.println("BREAK, \""+t.image+"\"" ); count++; } |
+   t = <RETURN> { System.out.println("RETURN, \""+t.image+"\"" ); count++; } |
+   t = <DOUBLESTAR> { System.out.println("DOUBLESTAR, \""+t.image+"\"" ); count++; } |
+   t = <DOUBLE> { System.out.println("DOUBLE, \""+t.image+"\"" ); count++; } |
+
+   /** Comments */
+   t = <DEVIDESTAR> { System.out.println("DEVIDESTAR, \""+t.image+"\"" ); count++; } |
+   t = <STARDEVIDE> { System.out.println("STARDEVIDE, \""+t.image+"\"" ); count++; } |
+   t = <DEVIDEDEVIDE> { System.out.println("DEVIDEDEVIDE, \""+t.image+"\"" ); count++; } |
+
+   /** OPERATORS */
+   t = <LPARENT> { System.out.println("LPARENT, \""+t.image+"\"" ); count++; } |
+   t = <RPARENT> { System.out.println("RPARENT, \""+t.image+"\"" ); count++; } |
+   t = <LBRACE> { System.out.println("LBRACE, \""+t.image+"\"" ); count++; } |
+   t = <RBRACE> { System.out.println("RBRACE, \""+t.image+"\"" ); count++; } |
+   t = <LCURLY> { System.out.println("LCURLY, \""+t.image+"\"" ); count++; } |
+   t = <RCURLY> { System.out.println("RCURLY, \""+t.image+"\"" ); count++; } |
+   t = <COMMA> { System.out.println("COMMA, \""+t.image+"\"" ); count++; } |
+   t = <SEMICOLON> { System.out.println("SEMICOLON, \""+t.image+"\"" ); count++; } |
+   t = <OROR> { System.out.println("OROR, \""+t.image+"\"" ); count++; } |
+   t = <ANDAND> { System.out.println("ANDAND, \""+t.image+"\"" ); count++; } |
+   t = <EQUALEQUAL> { System.out.println("EQUALEQUAL, \""+t.image+"\"" ); count++; } |
+   t = <NOTEQUAL> { System.out.println("NOTEQUAL, \""+t.image+"\"" ); count++; } |
+   t = <LESSEQUAL> { System.out.println("LESSEQUAL, \""+t.image+"\"" ); count++; } |
+   t = <GREATEQUAL> { System.out.println("GREATEQUAL, \""+t.image+"\"" ); count++; } |
+
+   t = <EQUAL> { System.out.println("EQUAL, \""+t.image+"\"" ); count++; } |
+   t = <AMPERSAND> { System.out.println("AMPERSAND, \""+t.image+"\"" ); count++; } |
+   t = <LESS> { System.out.println("LESS, \""+t.image+"\"" ); count++; } |
+   t = <GREAT> { System.out.println("GREAT, \""+t.image+"\"" ); count++; } |
+   t = <PLUS> { System.out.println("PLUS, \""+t.image+"\"" ); count++; } |
+   t = <MINUS> { System.out.println("MINUS, \""+t.image+"\"" ); count++; } |
+   t = <TIMES> { System.out.println("TIMES, \""+t.image+"\"" ); count++; } |
+   t = <DIVIDE> { System.out.println("DIVIDE, \""+t.image+"\"" ); count++; } |
+   t = <PERCENT> { System.out.println("PERCENT, \""+t.image+"\"" ); count++; } |
+
+   /**TOKEN PRODUCTION*/
+   t = <ID> { System.out.println("ID, \""+t.image+"\"" ); count++; } |
+   t = <CHAR_CONST> { System.out.println("CHAR_CONST, \""+t.image+"\"" ); count++; } |
+   t = <STRING_CONST> { System.out.println("STRING_CONST, \""+t.image+"\"" ); count++; } |
+   t = <INTEGER_CONST> { System.out.println("INTEGER_CONST, \""+t.image+"\"" ); count++; } |
+   t = <DOUBLE_CONST> { System.out.println("DOUBLE_CONST, \""+t.image+"\"" ); count++; } |
+   t = <DIGIT> { System.out.println("DIGIT \""+t.image+"\"" ); count++; } |
+   t = <OCTAL> { System.out.println("OCTAL, \""+t.image+"\"" ); count++; } |
+   t = <HEX_DIGIT> { System.out.println("HEX_DIGIT, \""+t.image+"\"" ); count++; } |
+   t = <LETTER> { System.out.println("LETTER, \""+t.image+"\"" ); count++; } |
+   t = <OTHER_CHAR> { System.out.println("OTHER_CHAR, \""+t.image+"\"" ); count++; }   
+  )+
+  {return count;}
+
+
+}
+
+  /**add more function*/
+  /**parse the syntax*/
+  void goal():
+  {}
+  {
+     program()<EOF>
+  }
+
+  void program():
+  {}
+  {
+      function_or_var_list()
+  }
+
+  void function_or_var_list():
+  {}
+  {
+      /**function_or_var_list() function()
+      | function_or_var_list() global_var() 
+      | {} */
+
+      /**(function() |  global_var())*    */
+
+      (var_type() <ID>  function_or_var_list_prime())*
+  }
+
+ /**add to deal with left factor*/
+  void function_or_var_list_prime():
+  {}
+  {
+      /*function() |  global_var()**/
+      (function() | global_var())
+  }
+
+  void function():
+  {}
+  {
+      /**var_type() <ID> <LPARENT> arguments() <RPARENT> compound_statement() */
+      /**deal with left factor things*/
+      <LPARENT> arguments() <RPARENT> compound_statement()
+  }
+
+  void arg_list():
+  {}
+  {
+      /**arg()
+      | arg_list() <COMMA> arg()*/
+      arg() (<COMMA> arg())* 
+  }
+
+  void arguments():
+  {}
+  {
+      arg_list()
+      | {}
+  }
+
+  void arg():
+  {}
+  {
+      var_type() <ID>
+  }
+
+  void global_var():
+  {}
+  {
+      /**var_type() global_var_list() <SEMICOLON> */
+      /**deal with left factor things*/
+      global_var_list() <SEMICOLON>
+  }
+
+  void global_var_list():
+  {}
+  {
+      /**<ID> 
+      | global_var_list() <COMMA> <ID>*/
+      /**<ID> (<COMMA> <ID>)* */
+      /**deal with left factor things*/
+      (<COMMA> <ID>)*
+  }
+
+  void var_type():
+  {}
+  {
+      <CHARSTAR>
+      | <CHARSTARSTAR>
+      | <DOUBLE>
+      | <DOUBLESTAR>
+      | <LONG>
+      | <LONGSTAR>
+      | <VOID>
+  }
+
+  void assignment():
+  {}
+  {
+      /*<ID> <EQUAL> expression()
+      | <ID> <LBRACE> expression() <RBRACE> <EQUAL> expression()**/
+
+      /*<ID> (<EQUAL> expression()
+      | <LBRACE> expression() <RBRACE> <EQUAL> expression() )* */
+
+      (<EQUAL> expression()
+      | <LBRACE> expression() <RBRACE> <EQUAL> expression() )*
+  }
+
+  void call():
+  {}
+  {
+      /**<ID> <LPARENT> call_arguments() <RPARENT>*/
+      /**deal with left facot problem*/
+      <LPARENT> call_arguments() <RPARENT>
+  }
+
+  void call_arg_list():
+  {}
+  {
+      /*expression()
+      | call_arg_list() <COMMA> expression()**/
+
+      expression() (<COMMA> expression())*
+  }
+
+  void call_arguments():
+  {}
+  {
+      call_arg_list()
+      | {}
+  }
+
+  void expression():
+  {}
+  {
+      logical_or_expr()
+  }
+
+  void logical_or_expr():
+  {}
+  {
+      /**logical_and_expr()
+      | logical_or_expr() <OROR> logical_and_expr()*/
+
+      logical_and_expr() (<OROR> logical_and_expr())*
+  }
+
+  void logical_and_expr():
+  {}
+  {
+      /**equality_expr()
+      | logical_and_expr() <ANDAND> equality_expr()*/
+
+      equality_expr() (<ANDAND> equality_expr())*
+  }
+
+  void equality_expr():
+  {}
+  {
+      /**relational_expr()
+      | equality_expr() <EQUALEQUAL> relational_expr()
+      | equality_expr() <NOTEQUAL> relational_expr()*/
+      relational_expr() (<EQUALEQUAL> relational_expr() | <NOTEQUAL> relational_expr())*
+  }
+
+  void relational_expr():
+  {}
+  {
+      /**additive_expr()
+      | relational_expr() <LESS> additive_expr()
+      | relational_expr() <GREAT> additive_expr()
+      | relational_expr() <LESSEQUAL> additive_expr()
+      | relational_expr() <GREATEQUAL> additive_expr()*/
+      additive_expr() ( (<LESS> | <GREAT> | <LESSEQUAL> | <GREATEQUAL>)  additive_expr() )*
+  }
+
+  void additive_expr():
+  {}
+  {
+      /**multiplicative_expr()
+      | additive_expr() <PLUS> multiplicative_expr()
+      | additive_expr() <MINUS> multiplicative_expr()*/
+      multiplicative_expr() (<PLUS> multiplicative_expr() | <MINUS> multiplicative_expr())*
+  }
+
+  void multiplicative_expr():
+  {}
+  {
+      /**unary_expr()
+      | multiplicative_expr() <TIMES> unary_expr()
+      | multiplicative_expr() <DIVIDE> unary_expr()
+      | multiplicative_expr() <PERCENT> unary_expr()*/
+      unary_expr() (<TIMES> unary_expr() | <DIVIDE> unary_expr() 
+                    | <PERCENT> unary_expr())*
+  }
+
+  void unary_expr():
+  {}
+  {
+      primary_expr()
+      | <PLUS> unary_expr()
+      | <MINUS> unary_expr()
+      | <AMPERSAND> unary_expr()
+      | <TIMES> unary_expr()
+  }
+
+  void primary_expr():
+  {}
+  {
+      /**<STRING_CONST>
+      | call()
+      | <ID>
+      | <ID> <LBRACE> expression() <RBRACE>
+      | <INTEGER_CONST>
+      | <DOUBLE_CONST>
+      | <LPARENT> expression() <RPARENT> */
+
+      <STRING_CONST>
+      | <CHAR_CONST>
+      | (<ID> ( call() | <LBRACE> expression() <RBRACE> | {}) )
+      | <INTEGER_CONST>
+      | <DOUBLE_CONST>
+      | <LPARENT> expression() <RPARENT>
+  }
+
+  void compound_statement():
+  {}
+  {
+      <LCURLY> statement_list() <RCURLY>
+  }
+
+  void statement_list():
+  {}
+  {
+      /**statement_list() statement()
+      | {} */
+
+      (statement())*
+  }
+
+  void local_var():
+  {}
+  {
+      var_type() local_var_list() <SEMICOLON>
+  }
+
+  void local_var_list():
+  {}
+  {
+      /**<ID>
+      | local_var_list() <COMMA> <ID>*/
+
+      <ID> (<COMMA> <ID>)*
+  }
+
+  void statement():
+  {}
+  {
+      /*assignment() <SEMICOLON>
+      | call() <SEMICOLON>
+      | local_var()
+      | compound_statement()
+      | <IF> <LPARENT> expression() <RPARENT> statement() else_optional()
+      | <WHILE> <LPARENT>  expression() <RPARENT>  statement()
+      | <DO> statement() <WHILE> <LPARENT> expression() <RPARENT> <SEMICOLON>
+      | <FOR> <LPARENT> assignment() <SEMICOLON> expression()
+      <SEMICOLON> assignment() <RPARENT> statement()
+      | jump_statement(). **/
+
+      (<ID> (assignment() <SEMICOLON> | call() <SEMICOLON>) )
+      | local_var()
+      | compound_statement()
+      | <IF> <LPARENT> expression() <RPARENT> statement() else_optional()
+      | <WHILE> <LPARENT>  expression() <RPARENT>  statement()
+      | <DO> statement() <WHILE> <LPARENT> expression() <RPARENT> <SEMICOLON>
+      | <FOR> <LPARENT> <ID> assignment() <SEMICOLON> expression()
+      <SEMICOLON> <ID> assignment() <RPARENT> statement()
+      | jump_statement()
+  }
+
+  void else_optional():
+  {}
+  {
+      <ELSE>  statement()
+      | {}
+  }
+
+  void jump_statement():
+  {}
+  {
+      <CONTINUE> <SEMICOLON>
+      | <BREAK> <SEMICOLON>
+      | <RETURN> return_val_opt() <SEMICOLON>
+  }
+
+  void return_val_opt():
+  {}
+  {
+      expression()
+      | {}
+  }

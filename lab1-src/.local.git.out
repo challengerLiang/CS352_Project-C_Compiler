@@ -1,0 +1,2613 @@
+[master e1aa2d3] Commit
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+[master 76b1740] Commit
+ 1 file changed, 5 insertions(+), 6 deletions(-)
+[master 5166241] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 1426 insertions(+), 1 deletion(-)
+ create mode 100644 ParseException.java
+ create mode 100644 SimpleC.java
+ create mode 100644 SimpleCConstants.java
+ create mode 100644 SimpleCTokenManager.java
+ create mode 100644 SimpleCharStream.java
+ create mode 100644 Token.java
+ create mode 100644 TokenMgrError.java
+[master c618dc1] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 47 insertions(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 9b7718c] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 9c37658] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 38 insertions(+), 2 deletions(-)
+[master 2ad8c74] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+[master cab0aae] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master 859723e] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 53b7374] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master 1c37dc1] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+[master 8e6b26b] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master bb76f22] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0ec4bb4] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 26 insertions(+), 4 deletions(-)
+[master 95389ed] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[master 5f15e6a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 3fc86f8] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 deletion(-)
+[master a630fc2] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master edcb769] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master f03863f] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 22 insertions(+), 5 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master bc38b0c] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master f1a0cad] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+[master 53f6a0e] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 531c1ed] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+)
+[master 1d5e0a7] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master a08fafc] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+[master 064857c] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6c68534] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+[master a744f6f] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master c5bba42] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master dcf45db] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 10 deletions(-)
+[master cadbb62] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 51 deletions(-)
+[master 8931151] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+), 4 deletions(-)
+[master c5d824e] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 41 insertions(+), 3 deletions(-)
+[master 30ccb59] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 34 insertions(+), 34 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master b114379] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master 5966748] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master 536148d] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master eaa7d25] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master e47b390] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 34 insertions(+), 34 deletions(-)
+[master 2453628] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+), 10 deletions(-)
+[master 11e4e45] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 5 deletions(-)
+[master fc801b9] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master 0d4d541] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+[master a4ccd48] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+[master 53df488] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7a8d84f] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 9210721] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 22 insertions(+), 2 deletions(-)
+[master addb453] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 477faa2] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+[master cef76ab] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master f9637a8] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0c047f0] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 96de233] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+[master fd22725] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+)
+[master ed2ad1e] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+[master 06aa3b4] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master e55d36f] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 32 insertions(+), 1 deletion(-)
+[master f5f1682] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 9afe803] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 173 insertions(+), 9 deletions(-)
+[master c503524] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 32d6fff] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 42 insertions(+), 13 deletions(-)
+[master 3909522] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 7 insertions(+), 56 deletions(-)
+[master f615c5a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 2d6aae9] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 51 insertions(+), 9 deletions(-)
+[master 0cd85fd] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 5ea4e93] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 64 insertions(+), 24 deletions(-)
+[master 1e24d06] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 83 insertions(+), 3 deletions(-)
+[master 7c2f09b] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 9 insertions(+), 25 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 3773f78] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master ebdec1a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 368 insertions(+), 15 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 5f8a8d5] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master df4b7a0] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master 2d068cb] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 7947b80] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6a0af1d] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 168 insertions(+), 415 deletions(-)
+[master 780516a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 2f93d09] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 65 insertions(+), 93 deletions(-)
+[master 9e3896d] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 9 insertions(+), 3 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master bbe0e6a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master a2d423a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+[master ac4a022] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 6afbbed] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 61eb9f2] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[master ec31a33] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 420 insertions(+), 100 deletions(-)
+[master 7b16ece] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 163 insertions(+), 153 deletions(-)
+[master 0fe7966] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 61 insertions(+), 5 deletions(-)
+[master fbfabbf] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 19 insertions(+), 7 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master d423f3b] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master a1dd5bf] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master b0a70c9] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7a9586f] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 0b21bcf] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master a7329c8] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master c1c09fd] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 7ec4125] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+), 13 deletions(-)
+[master 4820d0a] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 505 insertions(+), 142 deletions(-)
+[master 096af7f] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+)
+[master 6c49e84] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 96 insertions(+), 3 deletions(-)
+[master 2848a11] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[master 2ea7330] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 11 insertions(+), 10 deletions(-)
+[master b03e5a0] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master b6c54bb] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 12 insertions(+)
+[master 4b6c860] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 200 insertions(+), 160 deletions(-)
+[master dc617ea] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 30986fb] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 23 insertions(+), 23 deletions(-)
+[master 685cf6d] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master dbf3808] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 55 insertions(+), 55 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 06c9c96] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 7 deletions(-)
+[master d9441a7] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master 9fe66cb] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master aa0b364] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 float.pdf
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+[master c519817] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 29 insertions(+), 1 deletion(-)
+[master 55d1fde] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+[master 438849c] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 13 insertions(+), 7 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	float_parser_test.sh
+	lab1part2tests/
+
+nothing added to commit but untracked files present
+[master 3295c42] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master adfe08b] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 109 insertions(+), 124 deletions(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	float_parser_test.sh
+	solution_out.txt
+	test_tok_release.sh
+	token.py
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	float_parser_test.sh
+	solution_out.txt
+	test_tok_release.sh
+	token.py
+
+nothing added to commit but untracked files present
+[master db74323] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[master 2a1bfce] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	float_parser_test.sh
+	solution_out.txt
+	test_tok_release.sh
+	token.py
+
+nothing added to commit but untracked files present
+[master dbff8cd] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+[master 54e227b] Commit
+ Committer: Liang Zhang <zhan1997@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	float_parser_test.sh
+	solution_out.txt
+	test_tok_release.sh
+	token.py
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	float_parser_test.sh
+	solution_out.txt
+	test_tok_release.sh
+	token.py
+
+nothing added to commit but untracked files present
+On branch master
+Untracked files:
+	.local.git.out
+	DecimalParser$1.class
+	DecimalParser$StateDecimal.class
+	DecimalParser.class
+	FloatParser$1.class
+	FloatParser$StateFloat.class
+	FloatParser.class
+	ParseException.class
+	SimpleC.class
+	SimpleCConstants.class
+	SimpleCTokenManager.class
+	SimpleCharStream.class
+	Token.class
+	TokenMgrError.class
+	solution_out.txt
+	token.py
+
+nothing added to commit but untracked files present

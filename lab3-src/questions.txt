@@ -1,0 +1,19 @@
+CS 352 lab3     Liang Zhang      zhan1997
+
+1.  (1) We cannot declare a vaible and initalize it at the same time for SimpleC while we can do it in C.
+	(2) We cannot use struct in SimpleC while it is allowed in C.
+	(3) We cannot declare int for SimpleC while it is allowed in C.
+	(4) The assignment, condition and update must be written and can not be empty in SimpleC for the for loop while they can be empty in C.
+	(5) We doesn't implement switch statement in Simple C while switch statement can be used in C.
+
+
+2. We should do this to make sure that the precedence of these operators are correct sicne different opertors has difffernt precedence. For example, Multiply: '*' executes before ADD: '+' .
+
+3.
+a. The program is not valid because int is not defined in Simple C grammar.
+b. The program is not valid. It can not be "double *x" because in SimpleC, ID can not begin with a star.
+c. The program is valid.
+d. The program is not valid because in SimpleC grammer, we should first declare a variable and then give it a value or initailize it in a different line.
+   In other words, in SimplcC, we can not declare a varaible and initalize it at the same time.
+e. The program is not valid becasue in SimpleC grammer, it doesn't allow declear a new function inside a function.
+f. The program is not valid because the assignment, condition and update must be written and can not be empty in SimpleC for the for loop.
